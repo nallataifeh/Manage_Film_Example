@@ -1009,6 +1009,31 @@ components:
         - 6233eca5c97c70218d650348
         - 6233eca5c97c70218d650354
         - 6233eca5c97c70218d65035e
+        - 6233f1e6c97c70218d6503c8
+      x-skaffolder-roles: []
+    - x-skaffolder-id: 6233f1e6c97c70218d6503c7
+      x-skaffolder-name: UserEdit
+      x-skaffolder-url: /users/{id}
+      x-skaffolder-template: Edit_Crud
+      x-skaffolder-resource: 6233eca2c97c70218d65031d
+      x-skaffolder-services:
+        - 6233eca3c97c70218d650321
+        - 6233eca3c97c70218d650324
+        - 6233eca3c97c70218d650325
+      x-skaffolder-nesteds: 
+      x-skaffolder-links: 
+      x-skaffolder-roles: []
+    - x-skaffolder-id: 6233f1e6c97c70218d6503c8
+      x-skaffolder-name: UserList
+      x-skaffolder-url: /users
+      x-skaffolder-template: List_Crud
+      x-skaffolder-resource: 6233eca2c97c70218d65031d
+      x-skaffolder-services:
+        - 6233eca3c97c70218d650322
+        - 6233eca3c97c70218d650328
+      x-skaffolder-nesteds: 
+      x-skaffolder-links:
+        - 6233f1e6c97c70218d6503c7
       x-skaffolder-roles: []
   x-skaffolder-roles: 
     - x-skaffolder-id: 6233eca3c97c70218d65031f

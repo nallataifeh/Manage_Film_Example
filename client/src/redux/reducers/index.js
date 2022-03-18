@@ -8,6 +8,8 @@ import FilmListReducer from "./FilmListReducer";
 import FilmMakerEditReducer from "./FilmMakerEditReducer";
 import FilmMakerListReducer from "./FilmMakerListReducer";
 import HomeReducer from "./HomeReducer";
+import UserEditReducer from "./UserEditReducer";
+import UserListReducer from "./UserListReducer";
 
 // END IMPORT REDUCERS
 
@@ -34,6 +36,8 @@ const rootReducer = combineReducers({
 	FilmMakerEditReducer,
 	FilmMakerListReducer,
 	HomeReducer,
+	UserEditReducer,
+	UserListReducer,
  // END COMBINE REDUCERS
 
 });

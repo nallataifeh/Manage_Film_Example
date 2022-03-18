@@ -15,6 +15,8 @@ import FilmEdit from "./pages/FilmEdit";
 import FilmList from "./pages/FilmList";
 import FilmMakerEdit from "./pages/FilmMakerEdit";
 import FilmMakerList from "./pages/FilmMakerList";
+import UserEdit from "./pages/UserEdit";
+import UserList from "./pages/UserList";
 
 /* END MY VIEWS IMPORT */
 
@@ -50,6 +52,8 @@ class Routes extends Component {
               <PrivateRoute exact path="/films" component={ FilmList }  />
               <PrivateRoute exact path="/filmmakers/:id" component={ FilmMakerEdit }  />
               <PrivateRoute exact path="/filmmakers" component={ FilmMakerList }  />
+              <PrivateRoute exact path="/users/:id" component={ UserEdit }  />
+              <PrivateRoute exact path="/users" component={ UserList }  />
 
              {/* END MY VIEWS */}
 

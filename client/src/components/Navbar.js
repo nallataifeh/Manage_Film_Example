@@ -115,6 +115,14 @@ class Navbar extends React.Component {
               </ListItemIcon>
               <ListItemText className="menu-text" primary="FilmMaker" />
             </ListItem>
+          </Link>{" "}            
+           <Link to="/users">
+            <ListItem button key="User">
+              <ListItemIcon>
+                <ArrowForwardIos />
+              </ListItemIcon>
+              <ListItemText className="menu-text" primary="User" />
+            </ListItem>
           </Link>{" "} {/* END LINK MENU */}
         </List>
       </div>
